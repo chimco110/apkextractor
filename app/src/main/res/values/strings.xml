@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Apk Extractor</string>
+
+    <string name="nav_profile_point">Points: </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="all_app">All Apps</string>
+    <string name="system_app">System Apps</string>
+    <string name="installed_app">Installed Apps</string>
+    <string name="select_all">Select All</string>
+
+    <string name="save_path">Saved path</string>
+    <string name="apk_file_name_title">Apk file name saving format</string>
+    <string name="apk_file_name_content">Extracted application naming convention</string>
+    <string name="auto_backup_title">Auto-backup</string>
+    <string name="auto_backup_content">Auto backup applications in background</string>
+    <string name="backup_notification">Backup Notification</string>
+    <string name="backup_notification_content">When installing an app a alert to take backup will be asked</string>
+    <string name="number_items">%s items</string>
+    <string name="download">Download</string>
+    <string name="more_title">Select option</string>
+    <string name="extract_apk">Extract APK</string>
+    <string name="share_apk">Share APK</string>
+    <string name="run_app">Run App</string>
+    <string name="app_info">App Info</string>
+    <string name="uninstall_app">Uninstall App</string>
+
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="title_activity_saved_path">Saved APK Path</string>
+    <string name="admob_banner_id">ca-app-pub-5609698618330613/5430855084</string>
+    <string name="admob_app_id">ca-app-pub-5609698618330613~4652125888</string>
+    <string name="admob_interstitial_id">ca-app-pub-5609698618330613/1047026743</string>
+    <string name="exit_app_message">Press back again to leave</string>
+    <string name="feedback">Feedback</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="extract_to">Extracted to %s</string>
+    <string name="notification_title">App Security: New app installed</string>
+    <string name="apps_name">%s ?</string>
+
+    <string name="share_app">Share App</string>
+    <string name="more_apps">More Apps</string>
+    <string name="share">Share</string>
+    <string name="error_share">There is a problem at this feature. Please try it again.</string>
+    <string name="did_you_like_app">Did you like Apk Extractor?</string>
+    <string name="maybe_later">Maybe Later</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="convention_app_name">App Name</string>
+    <string name="convention_pkg_name">Package Name</string>
+    <string name="convention_version_name">Version Name</string>
+    <string name="convention_version_number">Version Number</string>
+    <string name="permission_enable_overlay_popup">Please enable this permission to use this feature</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_all_app"
+        android:fontFamily="sans-serif"
+        android:icon="@drawable/ic_home"
+        android:title="@string/all_app"
+        app:actionLayout="@layout/item_notification" />
+
+    <item
+        android:id="@+id/nav_system_app"
+        android:fontFamily="sans-serif"
+        android:icon="@drawable/ic_system"
+        android:title="@string/system_app"
+        app:actionLayout="@layout/item_notification" />
+
+    <item
+        android:id="@+id/nav_installed_app"
+        android:fontFamily="sans-serif"
+        android:icon="@drawable/ic_installed"
+        android:title="@string/installed_app"
+        app:actionLayout="@layout/item_notification" />
+
+    <item
+        android:id="@+id/nav_setting"
+        android:fontFamily="sans-serif"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"
+        app:actionLayout="@layout/item_notification" />
+
+    <item
+        android:id="@+id/nav_share_app"
+        android:fontFamily="sans-serif"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share_app"
+        app:actionLayout="@layout/item_notification" />
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:fontFamily="sans-serif"
+                android:icon="@drawable/ic_nav_send"
+                android:title="@string/feedback"
+                app:actionLayout="@layout/item_notification" />
+            <item
+                android:id="@+id/nav_rate_us"
+                android:fontFamily="sans-serif"
+                android:icon="@drawable/ic_nav_star"
+                android:title="@string/rate_us"
+                app:actionLayout="@layout/item_notification" />
+            <item
+                android:id="@+id/nav_more_app"
+                android:fontFamily="sans-serif"
+                android:icon="@drawable/ic_nav_more"
+                android:title="@string/more_apps"
+                app:actionLayout="@layout/item_notification" />
+        </menu>
+    </item>
+</menu>

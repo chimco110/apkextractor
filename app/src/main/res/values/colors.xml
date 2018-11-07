@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B4C833</color>
+    <color name="colorPrimaryDark">#B4C833</color>
+    <color name="colorAccent">#B4C833</color>
+
+    <color name="colorFAFAFA">#fafafa</color>
+    <color name="colorFAFAFA70">#B3fafafa</color>
+    <color name="colorBlack20">#33000000</color>
+    <color name="colorEBEBEB">#ebebeb</color>
+
+    <color name="icon_tint">#000000</color>
+    <color name="grey_icon">#757575</color>
+
+</resources>

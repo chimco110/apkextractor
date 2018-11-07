@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_saved_path"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="activity.SavedPathActivity"
+    tools:showIn="@layout/activity_saved_path">
+
+    <LinearLayout
+        android:id="@+id/ln_saved_path"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/btn_back_folder"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_back"
+            android:tint="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/path_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/save_path"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_below="@id/ln_saved_path"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ebebeb"
+        tools:context="com.mtvstudio.apkextractor.activity.SavedPathActivity">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_layout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_app_height"
+        android:layout_marginBottom="@dimen/size_5dp"
+        android:layout_marginLeft="@dimen/size_10dp"
+        android:layout_marginRight="@dimen/size_10dp"
+        android:layout_marginTop="@dimen/size_5dp"
+        android:background="@drawable/item_background"
+        android:gravity="center"
+        android:padding="@dimen/size_10dp">
+
+        <ImageView
+            android:id="@+id/icon_app"
+            android:layout_width="@dimen/item_app_image_width"
+            android:layout_height="@dimen/item_app_image_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+
+        <RelativeLayout
+            android:id="@+id/rl_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/start_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_more"
+                android:tint="@color/icon_tint" />
+
+            <CheckBox
+                android:id="@+id/item_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:button="@drawable/selector_checkbox"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@id/rl_image"
+            android:layout_toRightOf="@id/icon_app"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="apk extractor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/package_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="com.samsung.apkextractor" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

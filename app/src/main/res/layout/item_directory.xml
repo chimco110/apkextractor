@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_app_height"
+        android:padding="@dimen/size_10dp"
+        android:gravity="center"
+        android:background="@drawable/item_background"
+        android:layout_marginBottom="@dimen/size_5dp"
+        android:layout_marginTop="@dimen/size_5dp"
+        android:layout_marginRight="@dimen/size_10dp"
+        android:layout_marginLeft="@dimen/size_10dp">
+        <ImageView
+            android:id="@+id/icon_folder"
+            android:layout_width="@dimen/item_app_image_width"
+            android:layout_height="@dimen/item_app_image_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_myfiles"/>
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/start_btn"-->
+            <!--android:layout_width="@dimen/item_app_start"-->
+            <!--android:layout_height="@dimen/item_app_start"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:background="@drawable/ic_run"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/icon_folder"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/name_folder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="New Folder"
+                android:gravity="center_vertical"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/number_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="%s items"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>
